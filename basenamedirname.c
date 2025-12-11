@@ -223,7 +223,6 @@ size_t dirname(const char *name, char *outname, size_t buflen)
 
 	/* goto the last slash and step bardwards till you get before all of the slashes. */
 	length = findFileBasename(name, &ptr);
-	fprintf(stderr, "dirname: rootDirNameLen: %lu, length: %lu, dirname: \"%s\"\n", (unsigned long)rootDirNameLen, (unsigned long)length, ptr);
 	if(ptr == NULL)
 	{
 		return 0;
