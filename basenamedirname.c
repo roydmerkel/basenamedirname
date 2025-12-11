@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "common.h"
+#include "basenamedirname.h"
 
   /* Native Windows, Cygwin, OS/2, DOS */
 # define ISSLASH(C) ((C) == '/' || (C) == '\\')
